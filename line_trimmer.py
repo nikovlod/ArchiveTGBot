@@ -19,7 +19,7 @@ def keep_first_500_lines(input_file, output_file=None):
         with open(input_file, 'r', encoding='utf-8') as f:
             lines = []
             for i, line in enumerate(f):
-                if i >= 10000:
+                if i >= 5000:
                     break
                 lines.append(line)
         
